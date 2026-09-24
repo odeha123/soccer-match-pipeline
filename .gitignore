@@ -12,3 +12,7 @@ __pycache__/
 # Local database file (we rebuild it from Parquet)
 *.duckdb
 *.duckdb.wal
+
+# Raw API responses: large and re-creatable by running ingest.py.
+# We keep them on disk but out of Git (decided in Phase 3; revisit in Phase 8).
+data/raw/**/*.json
