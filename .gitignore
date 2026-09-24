@@ -1,0 +1,14 @@
+# Secrets — never commit your API key
+.env
+
+# Python virtual environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Mac junk
+.DS_Store
+
+# Local database file (we rebuild it from Parquet)
+*.duckdb
+*.duckdb.wal

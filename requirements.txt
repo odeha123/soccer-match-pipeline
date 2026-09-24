@@ -1,0 +1,5 @@
+requests - calls the api key
+python-dotenv - reads the key from env.
+duckdb - handles the data and Parquet files later
+pandas
+pyarrow
