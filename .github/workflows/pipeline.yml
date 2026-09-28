@@ -1,0 +1,47 @@
+# Runs the whole pipeline every day on GitHub's servers, then commits the
+# refreshed dashboard CSVs and the data quality log back to the repo.
+#
+# One-time setup on GitHub: Settings -> Secrets and variables -> Actions ->
+#   New repository secret: FOOTBALL_DATA_API_KEY = <your key>
+
+name: Daily pipeline
+
+on:
+  schedule:
+    - cron: "0 9 * * *"     # every day at 09:00 UTC (5am Toronto)
+  workflow_dispatch:         # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write            # lets the job commit the refreshed files
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the pipeline (ingest -> staging -> marts -> checks -> export)
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: python src/run_pipeline.py
+
+      # Runs even if the pipeline failed, so a FAIL in the check log is still recorded.
+      # If checks failed, the export never ran, so the dashboard CSVs stay unchanged.
+      - name: Commit refreshed data
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard/ data/logs/check_log.csv
+          git diff --cached --quiet || git commit -m "Pipeline run $(date -u +'%Y-%m-%d')"
+          git push

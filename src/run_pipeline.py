@@ -4,10 +4,14 @@ The whole pipeline, one command.
 Runs each station in order. If any station fails, the pipeline STOPS,
 so bad data never flows further down the line.
 
-    Station 1  ingest.py          API -> data/raw/          (get data)
-    Station 2  build_staging.py   raw -> data/staging/      (clean data)
-    Station 3  run_checks.py      checks staging tables     (verify data)
-    Station 4  build_marts.py     staging -> data/marts/    (analyze data)  <- coming next
+    Station 1  ingest.py             API -> data/raw/            (get data)
+    Station 2  build_staging.py      raw -> data/staging/        (clean data)
+    Station 3  build_marts.py        staging -> data/marts/      (analyze data)
+    Station 4  run_checks.py         checks staging + marts      (verify data)
+    Station 5  export_dashboard.py   marts -> dashboard/*.csv    (publish data)
+
+The checks run BEFORE the export, so if any check fails the dashboard
+files are never updated with bad data.
 
 Run everything:                   python src/run_pipeline.py
 Skip the API call (rebuild only): python src/run_pipeline.py --skip-ingest
@@ -20,7 +24,9 @@ import time
 STATIONS = [
     ("1. Ingest",  "src/ingest.py"),
     ("2. Staging", "src/build_staging.py"),
-    ("3. Checks",  "src/run_checks.py"),
+    ("3. Marts",   "src/build_marts.py"),
+    ("4. Checks",  "src/run_checks.py"),
+    ("5. Export",  "src/export_dashboard.py"),
 ]
 
 skip_ingest = "--skip-ingest" in sys.argv
