@@ -47,3 +47,11 @@ run_at,check,status,bad_rows
 2026-10-11T04:18:26+00:00,unique_match_id,PASS,0
 2026-10-11T04:18:26+00:00,unique_team_id,PASS,0
 2026-10-11T04:18:26+00:00,valid_match_dates,PASS,0
+2026-10-11T15:20:26+00:00,finished_matches_have_scores,PASS,0
+2026-10-11T15:20:26+00:00,no_negative_scores,PASS,0
+2026-10-11T15:20:26+00:00,result_matches_score,PASS,0
+2026-10-11T15:20:26+00:00,standings_complete,PASS,0
+2026-10-11T15:20:26+00:00,standings_match_api,PASS,0
+2026-10-11T15:20:26+00:00,unique_match_id,PASS,0
+2026-10-11T15:20:26+00:00,unique_team_id,PASS,0
+2026-10-11T15:20:26+00:00,valid_match_dates,PASS,0

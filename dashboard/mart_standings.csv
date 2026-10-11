@@ -103,17 +103,17 @@ team_id,team,matchday,played,wins,draws,losses,goals_for,goals_against,points,go
 57,Arsenal,6,6,5,0,1,10,5,15,5,2,true
 397,Brighton Hove,6,6,4,1,1,18,5,13,13,3,true
 402,Brentford,6,6,2,4,0,12,6,10,6,4,true
-61,Chelsea,6,6,3,1,2,15,13,10,2,5,true
-341,Leeds United,6,6,2,3,1,8,5,9,3,6,true
-64,Liverpool,6,5,2,3,0,7,4,9,3,7,true
-62,Everton,6,5,2,3,0,6,3,9,3,8,true
-349,Ipswich Town,6,6,3,0,3,9,12,9,-3,9,true
-322,Hull City,6,5,2,2,1,6,4,8,2,10,true
+62,Everton,6,6,2,4,0,8,5,10,3,5,true
+61,Chelsea,6,6,3,1,2,15,13,10,2,6,true
+341,Leeds United,6,6,2,3,1,8,5,9,3,7,true
+64,Liverpool,6,5,2,3,0,7,4,9,3,8,true
+322,Hull City,6,6,2,3,1,8,6,9,2,9,true
+349,Ipswich Town,6,6,3,0,3,9,12,9,-3,10,true
 67,Newcastle,6,5,2,2,1,9,9,8,0,11,true
-66,Man United,6,6,1,3,2,9,9,6,0,12,true
-351,Nottingham,6,5,1,2,2,4,5,5,-1,13,true
-58,Aston Villa,6,6,1,2,3,6,11,5,-5,14,true
-354,Crystal Palace,6,5,1,1,3,6,11,4,-5,15,true
+354,Crystal Palace,6,6,2,1,3,9,12,7,-3,12,true
+66,Man United,6,6,1,3,2,9,9,6,0,13,true
+351,Nottingham,6,6,1,2,3,5,8,5,-3,14,true
+58,Aston Villa,6,6,1,2,3,6,11,5,-5,15,true
 71,Sunderland,6,6,1,1,4,6,12,4,-6,16,true
 1044,Bournemouth,6,6,0,3,3,7,13,3,-6,17,true
 73,Tottenham,6,6,0,3,3,3,9,3,-6,18,true
