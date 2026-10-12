@@ -80,12 +80,14 @@ team_id,team,match_id,matchday,kickoff_utc,opponent,venue,goals_for,goals_agains
 64,Liverpool,560552,2,2026-08-29 11:30:00,Nottingham,Home,2,2,D,1,2,2,2,DD,false
 64,Liverpool,560566,3,2026-09-04 19:00:00,Ipswich Town,Away,2,0,W,3,3,5,5,DDW,false
 64,Liverpool,560573,4,2026-09-12 14:00:00,Fulham,Home,0,0,D,1,4,6,6,DDWD,false
-64,Liverpool,560582,5,2026-09-20 13:00:00,Bournemouth,Away,1,0,W,3,5,9,9,DDWDW,true
+64,Liverpool,560582,5,2026-09-20 13:00:00,Bournemouth,Away,1,0,W,3,5,9,9,DDWDW,false
+64,Liverpool,560598,6,2026-10-11 15:30:00,Man City,Home,0,3,L,0,6,9,8,DWDWL,true
 65,Man City,560548,1,2026-08-23 13:00:00,Bournemouth,Home,2,1,W,3,1,3,3,W,false
 65,Man City,560555,2,2026-08-28 19:00:00,Crystal Palace,Away,4,1,W,3,2,6,6,WW,false
 65,Man City,560563,3,2026-09-05 14:00:00,Coventry City,Home,1,0,W,3,3,9,9,WWW,false
 65,Man City,560580,4,2026-09-13 15:30:00,Man United,Away,1,0,W,3,4,12,12,WWWW,false
-65,Man City,560590,5,2026-09-20 13:00:00,Sunderland,Home,5,3,W,3,5,15,15,WWWWW,true
+65,Man City,560590,5,2026-09-20 13:00:00,Sunderland,Home,5,3,W,3,5,15,15,WWWWW,false
+65,Man City,560598,6,2026-10-11 15:30:00,Liverpool,Away,3,0,W,3,6,18,15,WWWWW,true
 66,Man United,560543,1,2026-08-22 11:30:00,Hull City,Away,0,2,L,0,1,0,0,L,false
 66,Man United,560553,2,2026-08-30 15:30:00,Ipswich Town,Home,5,2,W,3,2,3,3,LW,false
 66,Man United,560567,3,2026-09-06 13:00:00,Everton,Away,2,2,D,1,3,4,4,LWD,false
