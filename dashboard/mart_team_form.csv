@@ -4,7 +4,8 @@ team_id,team,match_id,matchday,kickoff_utc,opponent,venue,goals_for,goals_agains
 57,Arsenal,560570,3,2026-09-06 15:30:00,Chelsea,Home,2,1,W,3,3,9,9,WWW,false
 57,Arsenal,560577,4,2026-09-12 19:00:00,Sunderland,Away,2,0,W,3,4,12,12,WWWW,false
 57,Arsenal,560586,5,2026-09-19 14:00:00,Brighton Hove,Away,0,3,L,0,5,12,12,WWWWL,false
-57,Arsenal,560593,6,2026-10-10 11:30:00,Leeds United,Home,2,1,W,3,6,15,12,WWWLW,true
+57,Arsenal,560593,6,2026-10-10 11:30:00,Leeds United,Home,2,1,W,3,6,15,12,WWWLW,false
+57,Arsenal,560608,7,2026-10-18 15:30:00,Nottingham,Away,1,0,W,3,7,18,12,WWLWW,true
 58,Aston Villa,560549,1,2026-08-23 13:00:00,Brighton Hove,Away,0,4,L,0,1,0,0,L,false
 58,Aston Villa,560557,2,2026-08-31 19:00:00,Arsenal,Home,0,1,L,0,2,0,0,LL,false
 58,Aston Villa,560569,3,2026-09-05 16:30:00,Hull City,Away,0,0,D,1,3,1,1,LLD,false
@@ -17,7 +18,8 @@ team_id,team,match_id,matchday,kickoff_utc,opponent,venue,goals_for,goals_agains
 1044,Bournemouth,560571,3,2026-09-05 11:30:00,Newcastle,Away,2,2,D,1,3,2,2,LDD,false
 1044,Bournemouth,560576,4,2026-09-12 14:00:00,Brentford,Home,2,2,D,1,4,3,3,LDDD,false
 1044,Bournemouth,560582,5,2026-09-20 13:00:00,Liverpool,Home,0,1,L,0,5,3,3,LDDDL,false
-1044,Bournemouth,560595,6,2026-10-10 14:00:00,Chelsea,Away,1,5,L,0,6,3,3,DDDLL,true
+1044,Bournemouth,560595,6,2026-10-10 14:00:00,Chelsea,Away,1,5,L,0,6,3,3,DDDLL,false
+1044,Bournemouth,560604,7,2026-10-18 13:00:00,Sunderland,Home,2,0,W,3,7,6,5,DDLLW,true
 402,Brentford,560547,1,2026-08-22 16:30:00,Tottenham,Home,3,0,W,3,1,3,3,W,false
 402,Brentford,560559,2,2026-08-30 13:00:00,Leeds United,Away,1,1,D,1,2,4,4,WD,false
 402,Brentford,560565,3,2026-09-05 14:00:00,Sunderland,Home,1,1,D,1,3,5,5,WDD,false
@@ -30,7 +32,8 @@ team_id,team,match_id,matchday,kickoff_utc,opponent,venue,goals_for,goals_agains
 397,Brighton Hove,560564,3,2026-09-05 14:00:00,Leeds United,Home,1,1,D,1,3,4,4,WLD,false
 397,Brighton Hove,560578,4,2026-09-13 13:00:00,Coventry City,Away,5,0,W,3,4,7,7,WLDW,false
 397,Brighton Hove,560586,5,2026-09-19 14:00:00,Arsenal,Home,3,0,W,3,5,10,10,WLDWW,false
-397,Brighton Hove,560592,6,2026-10-10 14:00:00,Sunderland,Away,2,0,W,3,6,13,10,LDWWW,true
+397,Brighton Hove,560592,6,2026-10-10 14:00:00,Sunderland,Away,2,0,W,3,6,13,10,LDWWW,false
+397,Brighton Hove,560609,7,2026-10-18 13:00:00,Crystal Palace,Home,5,0,W,3,7,16,13,DWWWW,true
 61,Chelsea,560551,1,2026-08-24 19:00:00,Fulham,Away,3,2,W,3,1,3,3,W,false
 61,Chelsea,560556,2,2026-08-30 13:00:00,Brighton Hove,Home,4,3,W,3,2,6,6,WW,false
 61,Chelsea,560570,3,2026-09-06 15:30:00,Arsenal,Away,1,2,L,0,3,6,6,WWL,false
@@ -49,7 +52,8 @@ team_id,team,match_id,matchday,kickoff_utc,opponent,venue,goals_for,goals_agains
 354,Crystal Palace,560568,3,2026-09-05 14:00:00,Fulham,Away,3,2,W,3,3,3,3,LLW,false
 354,Crystal Palace,560572,4,2026-09-12 14:00:00,Ipswich Town,Home,2,3,L,0,4,3,3,LLWL,false
 354,Crystal Palace,560585,5,2026-09-20 13:00:00,Leeds United,Away,0,0,D,1,5,4,4,LLWLD,false
-354,Crystal Palace,560596,6,2026-10-11 13:00:00,Nottingham,Home,3,1,W,3,6,7,7,LWLDW,true
+354,Crystal Palace,560596,6,2026-10-11 13:00:00,Nottingham,Home,3,1,W,3,6,7,7,LWLDW,false
+354,Crystal Palace,560609,7,2026-10-18 13:00:00,Brighton Hove,Away,0,5,L,0,7,7,7,WLDWL,true
 62,Everton,560546,1,2026-08-22 14:00:00,Crystal Palace,Home,2,0,W,3,1,3,3,W,false
 62,Everton,560560,2,2026-08-29 14:00:00,Bournemouth,Away,1,1,D,1,2,4,4,WD,false
 62,Everton,560567,3,2026-09-06 13:00:00,Man United,Home,2,2,D,1,3,5,5,WDD,false
@@ -83,7 +87,8 @@ team_id,team,match_id,matchday,kickoff_utc,opponent,venue,goals_for,goals_agains
 341,Leeds United,560564,3,2026-09-05 14:00:00,Brighton Hove,Away,1,1,D,1,3,5,5,WDD,false
 341,Leeds United,560579,4,2026-09-14 19:00:00,Newcastle,Home,4,1,W,3,4,8,8,WDDW,false
 341,Leeds United,560585,5,2026-09-20 13:00:00,Crystal Palace,Home,0,0,D,1,5,9,9,WDDWD,false
-341,Leeds United,560593,6,2026-10-10 11:30:00,Arsenal,Away,1,2,L,0,6,9,6,DDWDL,true
+341,Leeds United,560593,6,2026-10-10 11:30:00,Arsenal,Away,1,2,L,0,6,9,6,DDWDL,false
+341,Leeds United,560605,7,2026-10-18 13:00:00,Man United,Home,1,1,D,1,7,10,6,DWDLD,true
 64,Liverpool,560550,1,2026-08-23 15:30:00,Newcastle,Away,2,2,D,1,1,1,1,D,false
 64,Liverpool,560552,2,2026-08-29 11:30:00,Nottingham,Home,2,2,D,1,2,2,2,DD,false
 64,Liverpool,560566,3,2026-09-04 19:00:00,Ipswich Town,Away,2,0,W,3,3,5,5,DDW,false
@@ -103,7 +108,8 @@ team_id,team,match_id,matchday,kickoff_utc,opponent,venue,goals_for,goals_agains
 66,Man United,560567,3,2026-09-06 13:00:00,Everton,Away,2,2,D,1,3,4,4,LWD,false
 66,Man United,560580,4,2026-09-13 15:30:00,Man City,Home,0,1,L,0,4,4,4,LWDL,false
 66,Man United,560583,5,2026-09-20 15:30:00,Fulham,Away,1,1,D,1,5,5,5,LWDLD,false
-66,Man United,560600,6,2026-10-10 16:30:00,Tottenham,Home,1,1,D,1,6,6,6,WDLDD,true
+66,Man United,560600,6,2026-10-10 16:30:00,Tottenham,Home,1,1,D,1,6,6,6,WDLDD,false
+66,Man United,560605,7,2026-10-18 13:00:00,Leeds United,Away,1,1,D,1,7,7,4,DLDDD,true
 67,Newcastle,560550,1,2026-08-23 15:30:00,Liverpool,Home,2,2,D,1,1,1,1,D,false
 67,Newcastle,560558,2,2026-08-29 16:30:00,Tottenham,Away,2,0,W,3,2,4,4,DW,false
 67,Newcastle,560571,3,2026-09-05 11:30:00,Bournemouth,Home,2,2,D,1,3,5,5,DWD,false
@@ -116,13 +122,15 @@ team_id,team,match_id,matchday,kickoff_utc,opponent,venue,goals_for,goals_agains
 351,Nottingham,560562,3,2026-09-05 14:00:00,Tottenham,Home,0,0,D,1,3,2,2,LDD,false
 351,Nottingham,560574,4,2026-09-12 14:00:00,Aston Villa,Away,2,1,W,3,4,5,5,LDDW,false
 351,Nottingham,560589,5,2026-09-19 16:30:00,Coventry City,Home,0,1,L,0,5,5,5,LDDWL,false
-351,Nottingham,560596,6,2026-10-11 13:00:00,Crystal Palace,Away,1,3,L,0,6,5,5,DDWLL,true
+351,Nottingham,560596,6,2026-10-11 13:00:00,Crystal Palace,Away,1,3,L,0,6,5,5,DDWLL,false
+351,Nottingham,560608,7,2026-10-18 15:30:00,Arsenal,Home,0,1,L,0,7,5,4,DWLLL,true
 71,Sunderland,560544,1,2026-08-22 14:00:00,Ipswich Town,Away,1,2,L,0,1,0,0,L,false
 71,Sunderland,560554,2,2026-08-30 13:00:00,Fulham,Home,1,0,W,3,2,3,3,LW,false
 71,Sunderland,560565,3,2026-09-05 14:00:00,Brentford,Away,1,1,D,1,3,4,4,LWD,false
 71,Sunderland,560577,4,2026-09-12 19:00:00,Arsenal,Home,0,2,L,0,4,4,4,LWDL,false
 71,Sunderland,560590,5,2026-09-20 13:00:00,Man City,Away,3,5,L,0,5,4,4,LWDLL,false
-71,Sunderland,560592,6,2026-10-10 14:00:00,Brighton Hove,Home,0,2,L,0,6,4,4,WDLLL,true
+71,Sunderland,560592,6,2026-10-10 14:00:00,Brighton Hove,Home,0,2,L,0,6,4,4,WDLLL,false
+71,Sunderland,560604,7,2026-10-18 13:00:00,Bournemouth,Away,0,2,L,0,7,4,1,DLLLL,true
 73,Tottenham,560547,1,2026-08-22 16:30:00,Brentford,Away,0,3,L,0,1,0,0,L,false
 73,Tottenham,560558,2,2026-08-29 16:30:00,Newcastle,Home,0,2,L,0,2,0,0,LL,false
 73,Tottenham,560562,3,2026-09-05 14:00:00,Nottingham,Away,0,0,D,1,3,1,1,LLD,false
