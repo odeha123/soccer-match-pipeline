@@ -11,7 +11,7 @@ team_id,team,venue,played,wins,draws,losses,goals_for,goals_against,goal_differe
 397,Brighton Hove,Home,4,3,1,0,13,1,12,10,2.5
 61,Chelsea,Away,4,2,0,2,6,7,-1,6,1.5
 61,Chelsea,Home,3,2,1,0,11,6,5,7,2.33
-1076,Coventry City,Away,3,1,0,2,1,4,-3,3,1.0
+1076,Coventry City,Away,4,1,0,3,2,7,-5,3,0.75
 1076,Coventry City,Home,3,1,0,2,4,7,-3,3,1.0
 354,Crystal Palace,Away,4,1,1,2,3,9,-6,4,1.0
 354,Crystal Palace,Home,3,1,0,2,6,8,-2,3,1.0
@@ -38,4 +38,4 @@ team_id,team,venue,played,wins,draws,losses,goals_for,goals_against,goal_differe
 71,Sunderland,Away,4,0,1,3,5,10,-5,1,0.25
 71,Sunderland,Home,3,1,0,2,1,4,-3,3,1.0
 73,Tottenham,Away,3,0,2,1,1,4,-3,2,0.67
-73,Tottenham,Home,3,0,1,2,2,5,-3,1,0.33
+73,Tottenham,Home,4,1,1,2,5,6,-1,4,1.0
